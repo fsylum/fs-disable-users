@@ -1,6 +1,6 @@
 {
     "name": "fsylum/fs-disable-users",
-    "description": "Disable selected users from various site activites including preventing them from logging in, resetting password and creating application passwords.",
+    "description": "Disable selected users from various site activities including preventing them from logging in, resetting passwords, and creating application passwords.",
     "type": "wordpress-plugin",
     "authors": [
         {
