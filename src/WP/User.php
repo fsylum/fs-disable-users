@@ -175,9 +175,9 @@ class User implements Service
             <th scope="row"><?php _e('Disable User', 'fs-disable-users'); ?></th>
 
             <?php if ($is_user_disabled): ?>
-                <td><a href="<?php echo esc_url($action_url); ?>"><?php _e('Enable', 'fs-disable-users'); ?></a></td>
+                <td><a class="button button-secondary" href="<?php echo esc_url($action_url); ?>"><?php _e('Enable', 'fs-disable-users'); ?></a></td>
             <?php else: ?>
-                <td><a class="delete" href="<?php echo esc_url($action_url); ?>"><?php _e('Disable', 'fs-disable-users'); ?></a></td>
+                <td><a class="button button-delete" href="<?php echo esc_url($action_url); ?>"><?php _e('Disable', 'fs-disable-users'); ?></a></td>
             <?php endif; ?>
         </tr>
         <?php

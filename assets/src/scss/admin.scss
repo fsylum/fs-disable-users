@@ -1,4 +1,15 @@
-.row-actions span.fsdu-disable-user a,
-.fs-disable-users-wrap .delete {
+.row-actions span.fsdu-disable-user a {
     color: #b32d2e;
+}
+
+.fs-disable-users-wrap .button-delete {
+    border-color: #d63638;
+    color: #d63638;
+
+    &:hover,
+    &:active,
+    &:focus {
+        border-color: #b32d2e;
+        color: #b32d2e;
+    }
 }
