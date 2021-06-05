@@ -2,6 +2,8 @@
 
 namespace Fsylum\DisableUsers;
 
+use WP_Session_Tokens;
+
 class Helper
 {
     const METAKEY = 'fs_disable_users_status';
@@ -22,6 +24,7 @@ class Helper
             }
 
             update_user_meta($user_id, self::METAKEY, 1);
+            WP_Session_Tokens::get_instance($user_id)->destroy_all(); // log the user out from the site
         }
     }
 
