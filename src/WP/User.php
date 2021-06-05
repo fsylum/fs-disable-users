@@ -20,8 +20,8 @@ class User implements Service
         add_filter('bulk_actions-users', [$this, 'addBulkAction']);
         add_filter('handle_bulk_actions-users', [$this, 'handleBulkAction'], 10, 3);
         add_action('admin_notices', [$this, 'showNotice']);
-        add_action('admin_action_' . self::ACTION_SINGLE_ENABLE, [$this, 'enableSingleUser']);
-        add_action('admin_action_' . self::ACTION_SINGLE_DISABLE, [$this, 'disableSingleUser']);
+        add_action('admin_action_' . self::ACTION_SINGLE_ENABLE, [$this, 'enableUser']);
+        add_action('admin_action_' . self::ACTION_SINGLE_DISABLE, [$this, 'disableUser']);
         add_action('personal_options', [$this, 'addActionLinkToEditUser']);
     }
 
@@ -114,7 +114,7 @@ class User implements Service
         );
     }
 
-    public function enableSingleUser()
+    public function enableUser()
     {
         if (!current_user_can('edit_users')) {
             wp_die(__('You do not have enough privileges to enable this user.', 'fs-disable-users'));
@@ -140,7 +140,7 @@ class User implements Service
         exit;
     }
 
-    public function disableSingleUser()
+    public function disableUser()
     {
         if (!current_user_can('edit_users')) {
             wp_die(__('You do not have enough privileges to disable this user.', 'fs-disable-users'));
