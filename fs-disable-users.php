@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:         Disable Users
+ * Plugin Name:         FS Disable Users
  * Plugin URI:          https://github.com/fsylum/fs-disable-users
  * Description:         Disable selected users from various site activities including preventing them from logging in, resetting passwords, and creating application passwords.
  * Author:              Firdaus Zahari
