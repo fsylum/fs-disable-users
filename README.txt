@@ -1,4 +1,4 @@
-=== FS Email Tools ===
+=== FS Disable Users ===
 Contributors: fsylum
 Tags: user
 Requires at least: 4.0
@@ -27,6 +27,12 @@ This section describes how to install the plugin and get it working.
 1. Upload the plugin files to the `/wp-content/plugins/fs-disable-users` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. Go to Users page and disable any users that you want.
+
+== Screenshots ==
+
+1. Quick link to disable user in the Users page.
+2. Button to disable user when editing a user.
+3. Error message shown to the disabled user.
 
 == Changelog ==
 
