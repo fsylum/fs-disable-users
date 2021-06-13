@@ -24,5 +24,6 @@ $plugin = new Fsylum\DisableUsers\Plugin;
 $plugin->addService(new Fsylum\DisableUsers\WP\Auth);
 $plugin->addService(new Fsylum\DisableUsers\WP\User);
 $plugin->addService(new Fsylum\DisableUsers\WP\Asset);
+$plugin->addService(new Fsylum\DisableUsers\WP\Stream\Stream);
 
 $plugin->run();

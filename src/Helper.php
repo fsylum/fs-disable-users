@@ -25,6 +25,8 @@ class Helper
 
             update_user_meta($user_id, self::METAKEY, 1);
             WP_Session_Tokens::get_instance($user_id)->destroy_all(); // log the user out from the site
+
+            do_action('fs_user_disabled', $user_id);
         }
     }
 
@@ -39,6 +41,7 @@ class Helper
             }
 
             delete_user_meta($user_id, self::METAKEY);
+            do_action('fs_user_enabled', $user_id);
         }
     }
 }
