@@ -22,6 +22,10 @@ This section describes how to install the plugin and get it working.
 
 ## Changelog ##
 
+**1.1.0**
+
+* [ADDED] Integration with Stream
+
 **1.0.1**
 
 * [FIXED] Remove unrelated Docker files during build process from the final plugin files

@@ -3,7 +3,7 @@ Contributors: fsylum
 Tags: user
 Requires at least: 4.0
 Tested up to: 5.7
-Stable tag: 1.0.1
+Stable tag: 1.1.0
 Requires PHP: 7.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -35,6 +35,10 @@ This section describes how to install the plugin and get it working.
 3. Error message shown to the disabled user.
 
 == Changelog ==
+
+**1.1.0**
+
+* [ADDED] Integration with Stream
 
 **1.0.1**
 
