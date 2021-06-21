@@ -1,11 +1,7 @@
 {
-  "name": "fs-disable-users",
-  "version": "1.1.0",
-  "description": "Disable selected users from various site activities including preventing them from logging in, resetting passwords, and creating application passwords.",
-  "devDependencies": {
-    "laravel-mix": "^6.0.11"
-  },
+  "private": true,
   "dependencies": {
+    "laravel-mix": "^6.0.11",
     "resolve-url-loader": "^3.1.2",
     "sass": "^1.32.6",
     "sass-loader": "^8.0.2"

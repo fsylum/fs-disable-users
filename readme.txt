@@ -36,6 +36,10 @@ This section describes how to install the plugin and get it working.
 
 == Changelog ==
 
+**Unreleased**
+
+* [FIXED] Simplify composer.json and package.json (unrelated to actual plugin)
+
 **1.1.0**
 
 * [ADDED] Integration with Stream
