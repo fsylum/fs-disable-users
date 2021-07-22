@@ -2,7 +2,7 @@
 Contributors: fsylum
 Tags: user
 Requires at least: 4.0
-Tested up to: 5.7
+Tested up to: 5.8
 Stable tag: 1.1.0
 Requires PHP: 7.3
 License: GPLv2 or later
