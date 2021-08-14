@@ -3,7 +3,7 @@ Contributors: fsylum
 Tags: user
 Requires at least: 4.0
 Tested up to: 5.8
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 Requires PHP: 7.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -36,9 +36,8 @@ This section describes how to install the plugin and get it working.
 
 == Changelog ==
 
-**Unreleased**
-
 * [FIXED] Simplify composer.json and package.json (unrelated to actual plugin)
+* [FIXED] Compatibility with WordPress 5.8
 
 **1.1.0**
 
